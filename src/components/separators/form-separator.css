@@ -1,0 +1,30 @@
+.separator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: relative;
+  width: 100%; 
+}
+
+.separator-container::before,
+.separator-container::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(155, 166, 184, 0) -2.05%, rgb(155, 166, 184) 50.93%, rgba(155, 166, 184, 0) 101.74%);; 
+}
+
+.separator-container::before {
+  margin-right: 0.5rem; 
+}
+
+.separator-container::after {
+  margin-left: 0.5rem; 
+}
+
+.separator-container span {
+  color: var(--dark-color); 
+  font-size: 1.4rem;
+  font-weight: bold;
+  white-space: nowrap; 
+}

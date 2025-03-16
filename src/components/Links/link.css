@@ -1,0 +1,19 @@
+@import "/src/hooks/variables.css";
+
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    height: 3rem;
+    border-radius: 3rem;
+    border: solid var(--dark-color) 1px;
+}
+
+.link-container p {
+    margin-left: 1rem;
+}
+
+

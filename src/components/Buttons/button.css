@@ -1,0 +1,50 @@
+@import "/src/hooks/variables.css";
+
+.btn {
+    height: 3rem;
+    color: var(--white-color);
+    background: var(--primary-color);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 60%;
+    border-radius: 3rem;
+}
+
+
+.left-navigate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark-color);
+    width: 40%;
+    height: 3rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+
+.right-navigate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color);
+    width: 40%;
+    height: 3rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.navigate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+
+.right-navigate p, .left-navigate p {
+    color: var(--white-color);
+}

@@ -1,0 +1,20 @@
+@import "/src/hooks/variables.css";
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 5rem;
+    height: 5rem;
+    background: var(--light-color);
+    border-radius: 0.5rem;
+}
+
+
+
+
+.icon-container + p {
+    color: var(--dark-color);
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+@import "/src/hooks/variables.css";
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.input-container label {
+    align-self: flex-start;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--dark-color);
+}
+
+
+.input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    outline: 0;
+    border-width: 1px;
+    font-size: 1.5rem;
+    opacity: 0.9;
+    color: var(--dark-color);
+}
